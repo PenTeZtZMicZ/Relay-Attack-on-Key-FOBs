@@ -1,9 +1,4 @@
----
 
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 # **Key FOB Relay Attack**
 #### *By: PenTeZtZMicZ* ####
 ***
