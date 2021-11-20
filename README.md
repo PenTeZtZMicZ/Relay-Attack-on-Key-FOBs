@@ -67,7 +67,7 @@ Manufacturers are now integrating new systems which utilize rolling codes, creat
 <div style="margin-bottom:2em;">
   
   
-### *How to do conduct the attack?*
+### *How to conduct the attack?*
 *This attack will be described with the example of using the HackRf.* 
 
 **Step 1:** Find and set the tool to the frequency in which the key FOB is operating at to enable the capturing of the token. This can be analysed via researching via the FOB's ID or by using a spectrum analysis tool to detect frequencies in real-time. <br>
