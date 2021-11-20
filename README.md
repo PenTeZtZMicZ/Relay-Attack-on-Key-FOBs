@@ -17,18 +17,19 @@
 
 
 <div style="margin-bottom:6em;">
-
-## **Context** 
+        
 ***
+## **Context** 
+
 Earlier in the term, I was in an interview, tasked with the challenge of describing how to hack into a car via its key fob. This was a new concept for me, so I did some extensive research after the interview to learn wireless penetration testing for a car, to develop an in-depth understanding. Therefore this post is a summation of my key findings, based upon the minimal information public on this topic. 
 
 
 <div style="margin-bottom:4em;">
 
 
-
-## **What Is A Relay Attack?** 
 ***
+## **What Is A Relay Attack?** 
+
 A relay attack is an exploitation which enables the attacker to gain access to a vulnerable vehicle, avoiding tamper detection and alarms, whilst preventing physical damage. The attacker will analyse and capture the frequency of a key FOB whilst the victim is opening their vehicle, utilizing a Software Designed Radio receiver and transceiver (SDR). This  signal will then be re-transmitted (relayed), on command to unlock the vehicle. This example is also commonly paired with a garage door, as it can also be exploited via this way.
 
 
@@ -38,9 +39,10 @@ A relay attack is an exploitation which enables the attacker to gain access to a
   </p>
 
 <div style="margin-bottom:4em;">
-
-## **Relay Attack**
+        
 ***
+## **Relay Attack**
+
 ### *What tools are required to capture and relay the signal from the key fob?*
 <p>A SDR such as:</p> 
 
@@ -75,9 +77,9 @@ Manufacturers are now integrating new systems which utilize rolling codes, creat
 
 <div style="margin-bottom:4em;">
 
-
-## **Mitigation Strategies**
 ***
+## **Mitigation Strategies**
+
 Companies such as Upstream Security have implemented cloud security software (UpStream C4 platform) within the car that utilities artificial intelligence to track and learn the user's behavioral data (for example it documents digital signatures produced by the OBD port). This system will then use this data in presence of an anomaly detected, analyzing it parallel to the model's data to detect and prevent malicious activity. This solution works via an SOC which means the complete process is not entirely automated, therefore deriving concerns around real-time perceived threat management. This solution will also need to be heavily regulated, tracking and accessing user vehicle data, posing potential ethical concerns. Therefore, transparency towards the consumer is key for this solution's success.
 
 
@@ -88,16 +90,17 @@ Subsequently, car key FOBS in its current state will require the constant resear
 
 <div style="margin-bottom:4em;">
 
-
+***	
 ## **Authors Note**
-***
+
 * I would preferably like to demonstrate these findings practically within this post however these tools are a. difficult to obtain or b. very expensive, with the HackRF costing $300.
 * Currently there is very little information made public regarding this kind of attack, potentially due to the perceived risk of criminal behaviour.
 
 <div style="margin-bottom:8em;">
-
-## **References**
+	
 ***
+## **References**
+
 
 <a href="https://cybersecurity-excellence-awards.com/candidates/upstream-c4-centralized-connected-car-cybersecurity-platfom/">UpStream C4 </a> <br>
 <a href="https://cybersecurity-excellence-awards.com/candidates/upstream-c4-centralized-connected-car-cybersecurity-platfom/">How to Mitigate Keyless Entry Attacks</a> <br>
