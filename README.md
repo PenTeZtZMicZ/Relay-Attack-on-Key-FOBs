@@ -1,9 +1,5 @@
 ---
-output:
-  html_document: default
-  pdf_document: default
-  word_document: default
----
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -15,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
     <img width="40%" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.xautoworld.com%2Fwp-content%2Fuploads%2F2018%2F12%2Fmodel-s-being-stolen-featured-700x321.jpg&f=1&nofb=1">
   </p>
 
-$~$
+
 
 
 ## **Context** 
