@@ -34,8 +34,8 @@ A relay attack is an exploitation which enables the attacker to gain access to a
 ***
 ### *What tools are required to capture and relay the signal from the key fob?*
 <p>A SDR such as:</p> 
-* **HackRf**: This tool is capable of reception and transmission of radio signals from 1MHZ - 6MHZ.
-  + To achieve this, the HackRF has an antenna which is able to intercept the signal.
+ **HackRf**: This tool is capable of reception and transmission of radio signals from 1MHZ - 6MHZ.
+        To achieve this, the HackRF has an antenna which is able to intercept the signal.
   
   <p align="center">
   <img width="40%" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.makerlab-electronics.com%2Fwp-content%2Fuploads%2F2018%2F03%2FHackRF-One-07.jpg&f=1&nofb=1">
